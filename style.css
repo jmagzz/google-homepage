@@ -1,56 +1,147 @@
+/* Header */
+
+.lhead{
+  position: absolute;
+  left: 20px;
+  top: 10px;
+  font-size: 14px;
+  color: black;
+}
+
+.gridbtn {
+  width: 18px;
+  height: 18px;
+  position: relative;
+  right: 8px;
+  top: 3px;
+  cursor: pointer;
+}
+
+.rhead{
+  position: absolute;
+  margin-top: 10px;
+  right: 20px;
+  font-size: 14px;
+  color: black;
+}
+
+.signbtn{
+  background-color: rgb(59, 86, 240);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 5px;
+  border: none;
+  color: white;
+  padding: 6px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: gray;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Body */
+
 body {
-    background-color:#fff;
-    margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  width: auto;
+  background-color:#fff;
+  margin: 0 auto;
 }
 
 div {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* Textbox */
 
 input[type=text] {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
+    background-image: url("image/search.png");
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: contain;
   }
 
-.centerimg {
-    padding-top: 109px;
+#centerimg {
+    padding-top: 150px;
     width: 272px;
     height: 92px;
 }
 
+
+/* Search field */
 .fsearch {
-    border-style: none;
+   border-radius: 25px;
+   border-color: rgb(218, 214, 214);
 }
 
-.fbutton {
-margin-left: auto;
-margin-right: auto;
+
+/* Buttons */
+#fbtn {
+  margin-top: 20px;
+  margin: 20 auto;
+  text-align: center;
 }
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #fff;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: gray;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover {
-    background-color: #111;
-  }
+
+.sbtn{
+  background-color: rgb(213, 213, 218);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 5px;
+  border: none;
+  color: rgb(71, 66, 66);
+  padding: 6px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/* Footer */
+
+.footerL{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: 14px;
+  background-color: rgb(233, 227, 227);
+}
+
+.footerR{
+  background-color: rgb(233, 227, 227);
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  font-size: 14px;
+}
