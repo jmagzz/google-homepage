@@ -78,17 +78,24 @@ div {
   width: 50%;
 }
 
+a:hover{
+  text-decoration: underline;
+}
+
 /* Textbox */
 
 input[type=text] {
     width: 100%;
-    padding: 12px 20px;
+    padding: 10px 20px;
     margin: 8px 0;
     box-sizing: border-box;
     background-image: url("image/search.png");
+    padding-left: 40px;
+    text-align: 50px left;
     background-position: left top;
     background-repeat: no-repeat;
     background-size: contain;
+    border-radius: 10px;
   }
 
 #centerimg {
